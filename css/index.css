@@ -174,9 +174,10 @@ section > p{
     background-color: transparent;
     font-size: 2rem;
     cursor: pointer;
+    transition: 1s;
 }
 .container-contate-me > a > button:hover{
-    border: 1px solid var(--azul4);
+    border: 2px solid var(--azul4);
 }
 /* ================= */
 /* Configurando o Footer */
