@@ -141,7 +141,29 @@ section > p{
     width: 100%;
     margin: 0px 0px 100px 0px;
     padding: 50px;
-    /* background-color: red; */
+}
+.btn-linkedin{
+    color: #0e76a8 ;
+}
+.fa-instagram{
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to bottom, purple, red);
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+}
+.fa-telegram{
+    color: #0088cc;
+}
+.fa-github{
+    color: #171515;
+}
+.fa-envelope-o{
+    color: #ff0000;
 }
 .container-contate-me > button{
     width: 60px;
@@ -149,9 +171,12 @@ section > p{
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
-    color: #13293D;
-    background-color: var(--azul5);
+    background-color: transparent;
     font-size: 2rem;
+    cursor: pointer;
+}
+.container-contate-me > button:hover{
+    border: 1px solid var(--azul4);
 }
 /* ================= */
 /* Configurando o Footer */
@@ -322,6 +347,26 @@ footer > span{
         background-repeat: no-repeat;
         margin: 5px;
         display: block;
+    }
+    .container-contate-me{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0px 0px 100px 0px;
+        padding: 30px;
+    }
+    .container-contate-me > button{
+        width: 80%;
+        height: 60px;
+        padding: 8px;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: transparent;
+        font-size: 2rem;
+        cursor: pointer;
     }
     /* ================= */
     /* Configurando o Footer */
