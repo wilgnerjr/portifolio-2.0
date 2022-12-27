@@ -73,7 +73,7 @@ header{
 /* Configurando Main */
 main{
     width: 90%;
-    margin: 0px auto;
+    margin: 0px auto 80px;
 }
 section{
     margin: 0 auto;
@@ -109,6 +109,7 @@ section > p{
     flex-wrap: nowrap;
     width: 100%;
     height: auto;
+    gap: 1rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -117,11 +118,11 @@ section > p{
     height: 150px;
     border: 2px solid var(--azul4);
     box-shadow: 0px 0px 20px 1px var(--azul1);
-    border-radius: 30px;
+    border-radius: 5px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 5px;
+    margin: 20px 0px;
 }
 .certificado1{
     background-image: url('../imagens/certificados/Certificado\ Gestão\ De\ Carreira.jpg');
@@ -132,10 +133,30 @@ section > p{
 .certificado3{
     background-image: url('../imagens/certificados/download.jpg');
 }
-
+.container-contate-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 0px 100px 0px;
+    padding: 50px;
+    /* background-color: red; */
+}
+.container-contate-me > button{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #13293D;
+    background-color: var(--azul5);
+    font-size: 2rem;
+}
 /* ================= */
 /* Configurando o Footer */
 footer{
+    margin-top: 100px;
     height: 45px;
     display: flex;
     align-items: center;
@@ -295,7 +316,7 @@ footer > span{
         height: 200px;
         border: 2px solid var(--azul4);
         box-shadow: 0px 0px 20px 1px var(--azul1);
-        border-radius: 30px;
+        border-radius: 5px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
