@@ -165,7 +165,7 @@ section > p{
 .fa-envelope-o{
     color: #ff0000;
 }
-.container-contate-me > button{
+.container-contate-me > a > button{
     width: 60px;
     height: 60px;
     padding: 10px;
@@ -175,7 +175,7 @@ section > p{
     font-size: 2rem;
     cursor: pointer;
 }
-.container-contate-me > button:hover{
+.container-contate-me > a > button:hover{
     border: 1px solid var(--azul4);
 }
 /* ================= */
@@ -358,7 +358,7 @@ footer > span{
         margin: 0px 0px 100px 0px;
         padding: 30px;
     }
-    .container-contate-me > button{
+    .container-contate-me > a > button{
         width: 80%;
         height: 60px;
         padding: 8px;
