@@ -54,7 +54,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 650px;
+    width: 500px;
     height: auto;
     border: 2px solid var(--azul1);
     border-radius: 20px;
@@ -70,8 +70,8 @@ header{
 .introducao-header > p{
     text-indent: 2rem;
     text-align: justify;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 1.2rem;
     color: var(--azul5);
 }
 
@@ -319,7 +319,7 @@ footer > span{
     .introducao-header > p{
         text-indent: 2rem;
         text-align: justify;
-        font-size: small;
+        font-size: 1.3rem;
         color: var(--azul5);
     }
     
