@@ -40,14 +40,55 @@ header{
 .img-header{
     width: 200px;
     height: 200px;
-    border: 1px solid var(--azul1);
-    box-shadow: 0px 0px 20px 20px var(--azul3);
+    border: 2px solid var(--azul1);
+    box-shadow: 0px 0px 30px 5px var(--azul2);
     border-radius: 50%;
     margin: 20px;
     background-image: url('https://i.discogs.com/513pWGa70fhWMULVo5AFTaMGE8Mbvpd0CO_WnXjvqJ0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0MDAz/MTctMTMzNTcxNzQ3/Ni5wbmc.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.container-curriculo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.curriculo{
+    animation-name: pulso;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 20px;
+    background-color: var(--azul1);
+    cursor: pointer;
+    color: var(--azul1);
+    padding: 20px;
+    border: 1px solid var(--azul3);
+    border-radius: 5px;
+    transition: 1s;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px 1px var(--azul2);
+}
+.curriculo:hover{
+    border: 1px solid var(--azul5);
+    background-color: var(--azul2);
+    color: var(--azul5);
+    animation-name: none;
+    box-shadow: 0px 0px 10px 5px var(--azul2);
+}
+@keyframes pulso {
+    from{
+        color: transparent;
+    }
+    to{
+        color: var(--azul5);
+    }
 }
 .introducao-header{
     display: flex;
@@ -183,14 +224,10 @@ section > p{
     color: #0e76a8 ;
 }
 .fa-instagram{
-    /* Primeiro passo: definir um degradê como fundo */
     background-image: linear-gradient(to bottom, purple, red);
-    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
     background-clip: text;
-    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
-    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
     color: black;
 }
 .fa-telegram{
@@ -218,39 +255,25 @@ section > p{
 }
 /* ================= */
 /* Configurando o Footer */
-footer{
-    margin-top: 100px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: var(--azul1);
-    text-align: center;
-}
+
 footer > span{
+    display: none;
     font-size: small;
     font-weight: bold;
     color: var(--azul5);
 }
-
-#element {
-    display: inline-block;
-    animation-name: rotate;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #01282e;
 }
-  
-@keyframes rotate {
-    from {
-        transform: scale(2);
-        color: var(--azul5);
-    }
-    to {
-        color: gold;
-        transform: scale(1);
-        transform: rotate(360deg);
-    }
+footer > p{
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--azul5);
 }
 
 
@@ -457,7 +480,11 @@ footer > span{
         background-color: var(--azul1);
         text-align: center;
     }
+    footer > p{
+        display: none;
+    }
     footer > span{
+        display: block;
         font-size: small;
         font-weight: bold;
         color: var(--azul5);
