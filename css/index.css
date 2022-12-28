@@ -109,7 +109,7 @@ section > p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    /* background-color: red; */
 }
 .projetos{
     width: 150px;
@@ -355,13 +355,14 @@ footer > span{
     .container-projetos{
         width: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: red;
+        /* background-color: red; */
     }
     .projetos{
-        width: 150px;
-        height: 150px;
+        width: 100%;
+        height: 250px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
