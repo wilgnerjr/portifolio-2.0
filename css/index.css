@@ -234,9 +234,24 @@ footer > span{
     color: var(--azul5);
 }
 
-
-
-
+#element {
+    display: inline-block;
+    animation-name: rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes rotate {
+    from {
+        transform: scale(2);
+        color: var(--azul5);
+    }
+    to {
+        color: gold;
+        transform: scale(1);
+        transform: rotate(360deg);
+    }
+}
 
 
 
