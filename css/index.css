@@ -104,6 +104,30 @@ section > p{
     margin-top: 0px; 
 }
 
+.container-projetos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.projetos{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.projeto-1{
+    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+}
+.projeto-2{
+    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+}
+.projeto-3{
+    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+}
 .container-certificados{
     display: flex;
     flex-wrap: nowrap;
@@ -327,6 +351,30 @@ footer > span{
         height: auto;
         padding-top: 80px;
         margin-top: 0px;
+    }
+    .container-projetos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+    }
+    .projetos{
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 5px;
+    }
+    .projeto-1{
+        background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+    }
+    .projeto-2{
+        background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+    }
+    .projeto-3{
+        background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
     }
     .container-certificados{
         display: flex;
