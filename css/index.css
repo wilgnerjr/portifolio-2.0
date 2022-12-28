@@ -55,6 +55,9 @@ header{
     align-items: center;
     gap: 2rem;
 }
+.container-curriculo > a{
+    text-decoration: none;
+}
 .curriculo{
     animation-name: pulso;
     animation-iteration-count: infinite;
