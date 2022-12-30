@@ -348,7 +348,7 @@ footer > p{
         box-shadow: 0px 0px 20px 20px var(--azul3);
         border-radius: 50%;
         margin: 20px;
-        /* background-image: url('https://i.discogs.com/513pWGa70fhWMULVo5AFTaMGE8Mbvpd0CO_WnXjvqJ0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE0MDAz/MTctMTMzNTcxNzQ3/Ni5wbmc.jpeg'); */
+        background-color: var(--azul3);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
