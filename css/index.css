@@ -280,7 +280,7 @@ footer{
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: #01282e;
+    background-color: var(--azul1);
 }
 footer > p{
     padding: 5px;
