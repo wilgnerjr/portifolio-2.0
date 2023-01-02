@@ -170,7 +170,8 @@ section > p{
 }
 
 .container-projetos{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,24 +430,17 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOB
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* background-color: red; */
+    }
+    .container-projetos > a{
+        width: 100%;
     }
     .projetos{
         width: 100%;
-        height: 250px;
+        height: 150px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin: 5px;
-    }
-    .projeto-1{
-        background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
-    }
-    .projeto-2{
-        background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
-    }
-    .projeto-3{
-        background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
     }
     .container-certificados{
         display: flex;
