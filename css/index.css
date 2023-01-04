@@ -3,6 +3,52 @@
 
 *{margin: 0;padding: 0;box-sizing: border-box;font-family:'Poppins', Arial, Helvetica,sans-serif, monospace;} 
 
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--azul1) var(--azul0);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--azul0);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--azul5);
+    border-radius: 10px;
+    border: 2px solid var(--azul4);
+  }
+
+  /* Works on Firefox */
+ .container-projetos{
+    scrollbar-width: thin;
+    scrollbar-color: var(--azul1) var(--azul0);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  .container-projetos::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .container-projetos::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: var(--azul1);
+  }
+  
+  .container-projetos::-webkit-scrollbar-thumb {
+    background-color: var(--azul5);
+    border-radius: 10px;
+    border: 2px solid var(--azul4);
+  }
+
+
+
+
 html,body{
     display: flex;
     flex-direction: column;
@@ -10,6 +56,7 @@ html,body{
     background-color: gainsboro;
 }
 :root{
+    --azul0: #d1d1d1;
     --azul1: #13293D;
     --azul2: #006494;
     --azul3: #247BA0;
@@ -170,13 +217,22 @@ section > p{
 }
 
 .container-projetos{
-    width: 90%;
-    margin: 0 auto;
+    max-width: 600px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* background-color: red; */
+    overflow-x: scroll;
+    margin: 0 auto;
+    background-color: var(--azul1);
 }
+
+.conteudo-projetos{
+    display: flex;
+    text-align: center;
+    padding: 0 10px;
+    width: 100%;
+    background-color: var(--azul1);
+}
+
 .projetos{
     width: 150px;
     height: 150px;
@@ -433,14 +489,6 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOB
     }
     .container-projetos > a{
         width: 100%;
-    }
-    .projetos{
-        width: 100%;
-        height: 150px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 5px;
     }
     .container-certificados{
         display: flex;
