@@ -23,7 +23,7 @@
     border-radius: 10px;
     border: 2px solid var(--azul4);
   }
-
+  
   /* Works on Firefox */
  .container-projetos{
     scrollbar-width: thin;
