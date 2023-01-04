@@ -63,6 +63,10 @@ html,body{
     --azul4: #1B98E0;
     --azul5: #E8F1F2;
 }
+a{
+    text-decoration: none;
+    color: var(--azul5);
+}
 header{
     display: flex;
     flex-direction: column;
