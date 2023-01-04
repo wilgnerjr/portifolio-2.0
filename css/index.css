@@ -37,7 +37,8 @@
   
   .container-projetos::-webkit-scrollbar-track {
     border-radius: 10px;
-    background: var(--azul1);
+    margin: 0 10px;
+    background: var(--azul5);
   }
   
   .container-projetos::-webkit-scrollbar-thumb {
@@ -221,14 +222,16 @@ section > p{
     display: flex;
     align-items: center;
     overflow-x: scroll;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding: 10px;
     background-color: var(--azul1);
+    border: 1px solid var(--azul1);
+    box-shadow: 0px 0px 10px 2px var(--azul1);
 }
 
 .conteudo-projetos{
     display: flex;
     text-align: center;
-    padding: 0 10px;
     width: 100%;
     background-color: var(--azul1);
 }
@@ -236,22 +239,27 @@ section > p{
 .projetos{
     width: 150px;
     height: 150px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 5px;
+    background-color: var(--azul2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
 }
 .projeto-1{
-    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
 }
 .projeto-2{
-    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
 }
 .projeto-3{
-    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
 }
 .projeto-4{
-    background-image: url('https://e7.pngegg.com/pngimages/461/245/png-clipart-cartoon-homer-animation-actor-others-miscellaneous-television.png');
+    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
 }
 .container-certificados{
     display: flex;
