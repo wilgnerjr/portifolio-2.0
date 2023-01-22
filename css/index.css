@@ -1,13 +1,11 @@
 /* Configurações Iniciais CSS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Works on Firefox */
-* {
+/* * {
     scrollbar-width: thin;
     scrollbar-color: var(--azul1) var(--azul0);
   }
   
-  /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 14px;
   }
@@ -20,8 +18,7 @@
     background-color: var(--azul5);
     border-radius: 10px;
     border: 2px solid var(--azul4);
-  }
-  /* Works on Firefox */
+  } */
 *{margin: 0;padding: 0;box-sizing: border-box;font-family:'Poppins', Arial, Helvetica,sans-serif, monospace;} 
 
  .container-projetos{
@@ -29,7 +26,6 @@
     scrollbar-color: var(--azul1) var(--azul0);
   }
   
-  /* Works on Chrome, Edge, and Safari */
   .container-projetos::-webkit-scrollbar {
     width: 14px;
   }
@@ -97,10 +93,11 @@ header{
     margin: 20px;
     color: var(--azul1);
     background-color: var(--azul1);
-    background-image: url('../imagens/minhaFoto.jpg');
+    background-image: url('../imagens/minha-foto.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    rotate: -12deg;
+    background-position: top;
     border: 0px solid var(--azul1);
     box-shadow: 0px 0px 5px 1px var(--azul1);
     transition: 1s;
@@ -244,7 +241,7 @@ section > p{
 .projetos{
     width: 150px;
     height: 150px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--azul2);
@@ -255,17 +252,53 @@ section > p{
     margin-right: 8px;
 }
 .projeto-1{
-    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
+    background-image: url('../imagens/ano-novo.webp');
 }
 .projeto-2{
-    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
+    background-image: url('../imagens/unes-universidade.webp');
 }
 .projeto-3{
-    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
+    background-image: url('../imagens/semaforo.webp');
 }
 .projeto-4{
+    background-image: url('../imagens/lampada.webp');
+}
+.projeto-5{
+    background-image: url('../imagens/troca-de-cor.webp');
+}
+.projeto-6{
+    background-image: url('../imagens/Galeria.webp');
+}
+.projeto-7{
+    background-image: url('../imagens/Calculadora.webp');
+}
+.projeto-8{
+    background-image: url('../imagens/leitor-de-texto.webp');
+}
+.projeto-9{
     background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
 }
+.projeto-10{
+    background-image: url('https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-certificados{
     display: flex;
     flex-wrap: nowrap;
