@@ -236,6 +236,7 @@ section > p{
     text-align: center;
     width: 100%;
     background-color: var(--azul1);
+    outline: none;
 }
 
 .projetos{
@@ -250,6 +251,8 @@ section > p{
     align-items: center;
     justify-content: center;
     margin-right: 8px;
+    outline: none;
+
 }
 .projeto-1{
     background-image: url('../imagens/ano-novo.webp');
@@ -280,6 +283,7 @@ section > p{
 }
 .projeto-10{
     background-image: url('../imagens/pagina-de-login.webp');
+    outline: none;
 }
 /* imagem projeto https://www.blog.ipv7.com.br/wp-content/uploads/2018/08/Projeto-Escrito.png */
 
