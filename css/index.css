@@ -313,15 +313,17 @@ section > p{
     background-repeat: no-repeat;
     margin: 20px 0px;
 }
+
 .certificado1{
-    background-image: url('../imagens/certificados/Programming\ Basics.jpg');
+    background-image: url('../imagens/certificados/Arquitetura\ e\ Organização\ de\ Computadores.jpg');
 }
 .certificado2{
     background-image: url('../imagens/certificados/Certificado\ Gestão\ De\ Carreira.jpg');
 }
 .certificado3{
-    background-image: url('../imagens/certificados/Arquitetura\ e\ Organização\ de\ Computadores.jpg');
+    background-image: url('../imagens/certificados/Programming\ Basics.jpg');
 }
+
 .container-contate-me{
     display: flex;
     flex-wrap: wrap;
